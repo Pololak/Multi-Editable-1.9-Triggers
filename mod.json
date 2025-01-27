@@ -1,0 +1,21 @@
+{
+	"geode": "4.2.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074"
+	},
+	"id": "pololak.multi-editable-old-triggers",
+	"name": "Multi-Editable Old Color Triggers",
+	"version": "v1.0.0",
+	"developer": "Pololak",
+	"description": "",
+	"tags": ["editor", "bugfix"],
+	"dependencies": [
+		{
+			"id": "alphalaneous.old_color_triggers",
+			"version": ">=1.0.2",
+			"importance": "suggested"
+		}
+	]
+}

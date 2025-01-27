@@ -23,8 +23,8 @@ class $modify(PolzEditorUI, EditorUI) {
 				case 744: // 0x2e8
 				case 900: // 0x384
 				case 915: // Line trigger ??? // 0x393
-					auto colorSelectPopup = ColorSelectPopup::create(obj, m_selectedObjects, nullptr);
-					colorSelectPopup->m_colorPicker->setColorValue(obj->m_triggerTargetColor);
+					auto colorSelectPopup = ColorSelectPopup::create((EffectGameObject*)m_selectedObject, m_selectedObjects, nullptr);
+					colorSelectPopup->m_colorPicker->setColorValue((EffectGameObject*)m_selectedObject->m_triggerTargetColor);
 					CCDirector::sharedDirector()->getRunningScene()->addChild(colorSelectPopup, 105);
 					//showPopup(colorSelectPopup);
 					return;

@@ -21,6 +21,7 @@ class $modify(PolzEditorUI, EditorUI) {
 				case 104: // 0x68 
 				case 105: // 0x69
 				case 744: // 0x2e8
+				case 899: // 0x383
 				case 900: // 0x384
 				case 915: // Line trigger ??? // 0x393
 					auto colorSelectPopup = ColorSelectPopup::create((EffectGameObject*)m_selectedObject, m_selectedObjects, nullptr);
